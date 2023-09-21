@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CJI Project - Disaster Restoration Workers</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martel:wght@300;700&family=Source+Sans+3:ital,wght@0,400;1,600&family=Source+Serif+Pro:wght@400;600&display=swap');
+    </style>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+    
+</head>
+<body>
+    <main>
+        <section id="scrolly">
+          <div class="sticky-thing">
+            <h3></h3>
+          </div>
+  
+          <article>
+            <div class="step" data-step="1" data-bg="url(images/CJI-Population-1.jpg)" data-tx="">
+              <p>
+                We asked <span style="background: #0276e8; color: white">100 disaster restoration workers</span> primarily based in Florida and Louisiana if they had been exposed to asbestos, lead and mold while working to rebuild after natural disasters.
+              </p>
+
+              <p>
+                <i>Here’s what they shared with us:</i>
+              </p>
+            </div>
+            <div class="step" data-step="2" data-bg="url(images/CJI-Population-2.jpg)" data-tx="" >
+              <p>
+                A total of <span style="background: #0276e8; color: white">100 disaster restoration workers</span> participated in our questionnaire. The gender distribution among these workers was significantly skewed, with <span style="background: #0276e8; color: white">89 identifying as male</span> and <span style="background: #0276e8; color: white">11 (11%) identifying as female</span>.
+              </p>
+            </div>
+            <div class="step" data-step="3" data-bg="url(images/CJI-Population-3.jpg)" data-tx="">
+              <p>
+                The workers who participated in our questionnaire spanned a wide range of demographics. The majority of these workers fell into the 30-39 (28%) and 40-49 (31%) age groups, indicating a significant portion were of working age.
+                <br>
+                <br>
+                The 50-59 age group represented 20% of these workers, while the 20-29 and 60-69 age groups accounted for 8% and 12%, respectively. Only one worker (1%) was in the 70-79 age group.
+              </p>
+            </div>
+            <div class="step" data-step="4" data-bg="url(images/CJI-Population-4.jpg)" data-tx="">
+              <p>
+                This data suggests that the workers who participated in our questionnaire were predominantly male, with a substantial representation of individuals between the ages of 30 and 49.
+              </p>
+            </div>
+            <div class="step" data-step="5" data-bg="url(images/CJI-Population-5.jpg)" data-tx="">
+              <p>
+                <b>72 of the 100 workers</b> said they have been exposed to mold.
+              </p>
+            </div>
+            <div class="step" data-step="6" data-bg="url(images/CJI-Population-6.jpg)" data-tx="">
+              <p>
+                <b>52</b> said they have been exposed to asbestos.
+              </p>
+            </div>
+            <div class="step" data-step="7" data-bg="url(images/CJI-Population-7.jpg)" data-tx="">
+              <p>
+                <b>48</b> said they have been exposed to lead.
+              </p>
+            </div>
+            <div class="step" data-step="8" data-bg="url(images/CJI-Population-8.jpg)" data-tx="">
+              <p>
+                Combined, <b>80 workers</b> said they had been exposed to at least one toxin while doing disaster restoration work.
+              </p>
+            </div>
+            <div class="step" data-step="9" data-bg="url(images/CJI-Population-9.jpg)" data-tx="">
+              <p>
+                Of <b>80 workers</b> who reported being exposed to asbestos, lead or mold on the job, just <b>15</b> said they had received training in how to handle any of those toxic substances.
+              </p>
+            </div>
+            <div class="step" data-step="10" data-bg="url(images/CJI-Population-10.jpg)" data-tx="">
+              <p>Of those same <b>80 workers</b>, <b>60</b> said their employer had not provided them with personal protective equipment.</p>
+            </div>
+            <div class="step" data-step="11" data-bg="url(images/CJI-Population-11.jpg)" data-tx="">
+              <p>
+                <b>About this questionnaire</b>
+                <br>
+                <br>
+                Columbia Journalism Investigations and The Center for Public Integrity designed our questionnaire for disaster restoration workers with guidance and vetting from Jonathan Rosen, industrial hygiene consultant at AJ Rosen and Associates; Diego Palaguachi, safety and health specialist at New York Committee for Occupational Safety and Health; Abiodun Oluyomi, assistant professor at Baylor College of Medicine; and Susan Arnold, associate professor of environmental health sciences at University of Minnesota School of Public Health.
+              </p>
+            </div>
+            <div class="step" data-step="12" data-bg="url(images/CJI-Population-12.jpg)" data-tx="">
+              <p>
+                No federal or state data exists on how many disaster restoration workers get sick while cleaning up after hurricanes, floods and wildfires each year. Nor does any U.S. government body or advocacy organization track these workers’ exposures to ubiquitous toxins in post-disaster zones. While some academic and public-interest research may shed light on health concerns among the disaster restoration workforce, our questionnaire was meant to measure how exposure of toxins during the cleanup and demolition phase after a natural disaster is affecting this population and quantify workers’ employment experiences and health symptoms. It is not a formal, randomized survey. Respondents participated voluntarily and without compensation. Many undocumented workers declined to participate out of fear of being deported. For that reason, our results may not represent the general experience of disaster restoration workers but they provide a stark image of what’s happening on the ground after natural disasters.
+              </p>
+            </div>
+            <div class="step" data-step="13" data-bg="url(images/CJI-Population-13.jpg)" data-tx="">
+              <p>
+                We spent eight months conducting phone and in-person interviews based on the questionnaire. We changed some terms in the Spanish questionnaire to ensure migrants from Central America understood what we were asking.
+              </p>
+              <div class="step" data-step="14" data-bg="url(images/CJI-Population-14.jpg)" data-tx="">
+                <p>
+                  In all, 100 disaster restoration workers responded from some of the nation’s most hurricane-impacted states, including Florida, Louisiana, New York and Texas. Our questions focused on hurricanes and other climate-driven disasters — floods and wildfires — since 2005, when Hurricane Katrina ushered in an era of climate devastation. We asked about the workers’ disaster cleanup jobs, workplace conditions and health symptoms, questions modeled on past surveys of this workforce.
+                </p>
+
+          </article>
+        </section>
+  
+        <section id="outro"></section>
+    </main>
+  
+      <!-- <div class='debug'></div> -->
+      <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+      <script src="https://unpkg.com/scrollama"></script>
+      <script>
+        // using d3 for convenience
+        var main = document.querySelector("main");
+        var scrolly = main.querySelector("#scrolly");
+        var sticky = scrolly.querySelector(".sticky-thing");
+        var article = scrolly.querySelector("article");
+        var steps = article.querySelectorAll(".step");
+  
+        // initialize the scrollama
+        var scroller = scrollama();
+  
+        // scrollama event handlers
+        function handleStepEnter(response) {
+          // response = { element, direction, index }
+          var el = response.element;
+  
+          // remove is-active from all steps
+          // then add is-active to this step
+          steps.forEach(step => step.classList.remove('is-active'));
+          el.classList.add('is-active');
+  
+          // update graphic based on step
+          sticky.style.backgroundImage = el.dataset.bg;
+          sticky.querySelector("h3").innerText = el.dataset.tx;
+        }
+  
+        function init() {
+          // 2. setup the scroller passing options
+          // 		this will also initialize trigger observations
+          // 3. bind scrollama event handlers (this can be chained like below)
+          scroller
+            .setup({
+              step: "#scrolly article .step",
+              offset: 0.7,
+              debug: false
+            })
+            .onStepEnter(handleStepEnter);
+  
+          // setup resize event
+          window.addEventListener("resize", scroller.resize);
+        }
+  
+        // kick things off
+        init();
+      </script>
+
+</body>
+</html>
