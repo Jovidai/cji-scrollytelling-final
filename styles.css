@@ -388,18 +388,19 @@ article {
   font-weight: 600;
   font-style:italic;
   font-family: 'Frank Ruhl Libre', serif;
-  color: #444;
-  text-shadow: 1px 1px #f3f3f3 ;
+  color: white;
+  text-shadow: 1px 1px #f3f3f3;
   font-size: 1rem;
   line-height: 30px;
   padding-top: 90vh;
   padding-left: 150vh;
+  border-radius: 30px;
 }
 
 .step {
   margin: 0 auto 2rem auto;
   margin-bottom: 25rem;
-  opacity: 0.7;
+  opacity: 0.8;
   padding-bottom: 50vh;
 }
 
@@ -409,6 +410,10 @@ article {
 
 .step.is-active p {
   opacity: 1;
+  border-style: dashed;
+  border-color: #001068;
+  border-width: 5px;
+  border-radius: 30px;
 }
 
 .step p {
@@ -420,6 +425,7 @@ article {
   color: black;
   font-family: 'Martel', serif;
   line-height: 30px;
+  border-radius: 30px;
 }
 
 /* for line chart scrooly */
